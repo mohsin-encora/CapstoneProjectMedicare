@@ -1,0 +1,3513 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-06T09:13:25.462Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8909000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Perform the GET Operation on product DB to retrieve a list of products",
+        "description": "",
+        "id": "to-perform-all-the-crud-operations-in-products-api;to-perform-the-get-operation-on-product-db-to-retrieve-a-list-of-products",
+        "after": [
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1507000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The base URI is \"http://localhost:8090/medicare\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8090/medicare\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefs.ApiAllProductsStepDef.the_base_URI_is(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2183000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I perform the Get Operation",
+            "match": {
+              "location": "stepDefs.ApiAllProductsStepDef.i_perform_the_Get_Operation()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1821000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I receive the list of the products",
+            "match": {
+              "location": "stepDefs.ApiAllProductsStepDef.i_receive_the_list_of_the_products()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefs.ApiAllProductsStepDef.response_code_should_be(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate the products in UI and API are same",
+            "match": {
+              "location": "stepDefs.ApiAllProductsStepDef.i_validate_the_products_in_UI_and_API_are_same()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:13:40.262Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2683000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To Perform the get Operation for most viewed products on product DB",
+        "description": "",
+        "id": "to-perform-all-the-crud-operations-in-products-api;to-perform-the-get-operation-for-most-viewed-products-on-product-db",
+        "after": [
+          {
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The base URI for most Viewed products is \"http://localhost:8090/medicare\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8090/medicare\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefs.ApiMostViewedProductsStepDef.the_base_URI_for_most_Viewed_products_is(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I perform the get operation to get most viewed products",
+            "match": {
+              "location": "stepDefs.ApiMostViewedProductsStepDef.i_perform_the_get_operation_to_get_most_viewed_products()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I receive the list of the most viewed products",
+            "match": {
+              "location": "stepDefs.ApiMostViewedProductsStepDef.i_receive_the_list_of_the_most_viewed_products()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should receive response code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.ApiMostViewedProductsStepDef.i_should_receive_response_code_as(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should receive the same list of products in UI and API",
+            "match": {
+              "location": "stepDefs.ApiMostViewedProductsStepDef.i_should_receive_the_same_list_of_products_in_UI_and_API()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:13:43.740Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1671000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To retrive the products from one category",
+        "description": "",
+        "id": "to-perform-all-the-crud-operations-in-products-api;to-retrive-the-products-from-one-category",
+        "after": [
+          {
+            "result": {
+              "duration": 412000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The base URI for one category products is \"http://localhost:8090/medicare\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8090/medicare\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefs.ApiOneCategoryProductsStepDef.the_base_URI_for_one_category_products_is(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I perform the get operation to get one category products",
+            "match": {
+              "location": "stepDefs.ApiOneCategoryProductsStepDef.i_perform_the_get_operation_to_get_one_category_products()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 257000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I receive the list of the one category products",
+            "match": {
+              "location": "stepDefs.ApiOneCategoryProductsStepDef.i_receive_the_list_of_the_one_category_products()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should get response code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefs.ApiOneCategoryProductsStepDef.i_should_get_response_code_as(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should receive the same list of products from one category in UI and API",
+            "match": {
+              "location": "stepDefs.ApiOneCategoryProductsStepDef.i_should_receive_the_same_list_of_products_from_one_category_in_UI_and_API()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "To perform all the CRUD Operations in products API",
+    "description": "",
+    "id": "to-perform-all-the-crud-operations-in-products-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/API_RestAssured.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-06T09:13:46.173Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1697000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To retrieve the data from category table from database",
+        "description": "",
+        "id": "to-perform-all-the-operations-in-database;to-retrieve-the-data-from-category-table-from-database",
+        "after": [
+          {
+            "result": {
+              "duration": 328000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2278000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The connection is built with the medicare database",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.the_connection_is_built_with_the_medicare_database()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I pass the statement quary to retrive the data from the category table",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_pass_the_statement_quary_to_retrive_the_data_from_the_category_table()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@database"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:13:50.811Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1867000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "To insert a new category into the database",
+        "description": "",
+        "id": "to-perform-all-the-operations-in-database;to-insert-a-new-category-into-the-database",
+        "after": [
+          {
+            "result": {
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The connection is built with the medicare database",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.the_connection_is_built_with_the_medicare_database()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 791000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I perform the insert quary to create a new category with name and description",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_perform_the_insert_quary_to_create_a_new_category_with_name_and_description()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I pass the statement quary to retrive the data from the category table",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_pass_the_statement_quary_to_retrive_the_data_from_the_category_table()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 282000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I check the new category is displayed in GUI",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_check_the_new_category_is_displayed_in_GUI()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I close the driver",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_close_the_driver()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@database"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:13:54.543Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2015000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To add a new user to the database",
+        "description": "",
+        "id": "to-perform-all-the-operations-in-database;to-add-a-new-user-to-the-database",
+        "after": [
+          {
+            "result": {
+              "duration": 441000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The connection is built with the medicare database",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.the_connection_is_built_with_the_medicare_database()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I add a new user with all the required details",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_add_a_new_user_with_all_the_required_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the new user should be added to the database",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.the_new_user_should_be_added_to_the_database()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I close the driver",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_close_the_driver()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1966000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_have_launched_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1201000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 742000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the existing username as \"sm@gmail.com\" and password as \"13245\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sm@gmail.com\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"13245\"",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_the_existing_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1111000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "validate I am on the Home page",
+            "match": {
+              "location": "stepDefs.LoginStepDef.validate_I_am_on_the_Home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I close the driver",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_close_the_driver()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@database"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:14:02.805Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2778000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "To create a new category in GUI and validating the data from the database",
+        "description": "",
+        "id": "to-perform-all-the-operations-in-database;to-create-a-new-category-in-gui-and-validating-the-data-from-the-database",
+        "after": [
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3194000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_have_launched_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1043000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I send the admin credentials username as \"vk@gmail.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vk@gmail.com\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 72
+                }
+              ],
+              "location": "stepDefs.AdminMngProductPageStepDef.i_send_the_admin_credentials_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 778000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1480000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on Manage Product",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_click_on_Manage_Product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1124000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on Add New Category",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_click_on_Add_New_Category()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 978000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter the category name as \"Dermatology1\" and description as \"Drugs for the treatment of skin disease\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dermatology1\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Drugs for the treatment of skin disease\"",
+                  "offset": 63
+                }
+              ],
+              "location": "stepDefs.AdminMngProductPageStepDef.i_enter_the_category_name_as_and_description_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 599000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click the save Button",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_click_the_save_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I validate the new category name in the Category table in database",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_validate_the_new_category_name_in_the_Category_table_in_database()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I delete the new Category entry",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_delete_the_new_Category_entry()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I close the driver",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_close_the_driver()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@database"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:14:15.682Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3323000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "To delete the new category and new user details from the database",
+        "description": "",
+        "id": "to-perform-all-the-operations-in-database;to-delete-the-new-category-and-new-user-details-from-the-database",
+        "after": [
+          {
+            "result": {
+              "duration": 2713000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 519000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "The connection is built with the medicare database",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.the_connection_is_built_with_the_medicare_database()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1251000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I perform the delete quary to delete the new category with name",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_perform_the_delete_quary_to_delete_the_new_category_with_name()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I perform the delete quary to delete the new user details with email",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_perform_the_delete_quary_to_delete_the_new_user_details_with_email()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the category should be deleted from the database",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.the_category_should_be_deleted_from_the_database()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user should be deleted from the database",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.the_user_should_be_deleted_from_the_database()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I close the driver",
+            "match": {
+              "location": "stepDefs.DatabaseTestingStepDefs.i_close_the_driver()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@database"
+          }
+        ]
+      }
+    ],
+    "name": "To perform all the Operations in Database",
+    "description": "",
+    "id": "to-perform-all-the-operations-in-database",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/DatabaseTesting.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2749000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_have_launched_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 931000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:14:24.054Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1978000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "This scenario is to define the registration happy path",
+        "description": "",
+        "id": "user-end-to-end-feature-scenario;this-scenario-is-to-define-the-registration-happy-path",
+        "after": [
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 396000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the registration Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_registration_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the firstname as \"Partha\" and lastname as \"Karmokar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Partha\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Karmokar\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_firstname_as_and_lastname_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 497000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the email id as \"park@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"park@gmail.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_email_id_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the contact number as \"2686245910\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2686245910\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_contact_number_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the password as \"423\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"423\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_password_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the confirm password as \"423\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"423\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_confirm_password_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select the role as user",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_select_the_role_as_user()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the Next Billing Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Next_Billing_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1273000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter the address details",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_address_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 403000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Next-confirm Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_Next_confirm_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1616000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on confirm Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_confirm_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "validate I am on the Welcome page and Login Button is displayed",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.validate_I_am_on_the_Welcome_page_and_Login_Button_is_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1062000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on registration page login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.click_on_registration_page_login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter the username as \"park@gmail.com\" and password as \"423\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"park@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"423\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 563000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "validate the username",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.validate_the_username()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2525000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_have_launched_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 993000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:14:37.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1735000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "This scenario is to define the sucessful login",
+        "description": "",
+        "id": "user-end-to-end-feature-scenario;this-scenario-is-to-define-the-sucessful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 333000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter the existing username as \"kn@gmail.com\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_the_existing_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 433000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "validate I am on the Home page",
+            "match": {
+              "location": "stepDefs.LoginStepDef.validate_I_am_on_the_Home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1026000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on username icon",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_click_on_username_icon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on logout",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_click_on_logout()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2934000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_have_launched_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1057000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:14:45.245Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1887000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "This scenario is to define the failure login",
+        "description": "",
+        "id": "user-end-to-end-feature-scenario;this-scenario-is-to-define-the-failure-login",
+        "after": [
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 344000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter the username as \"abc@gmail.com\" and password as \"23578\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"23578\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 449000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should get the error message \"Username and Password is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username and Password is invalid!\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_should_get_the_error_message(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4087000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_have_launched_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1213000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:14:52.123Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1901000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "This scenario is to define the product page and placing the order path",
+        "description": "",
+        "id": "user-end-to-end-feature-scenario;this-scenario-is-to-define-the-product-page-and-placing-the-order-path",
+        "after": [
+          {
+            "result": {
+              "duration": 707000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 436000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter the username as \"kn@gmail.com\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 732000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "validate I am on the Home page",
+            "match": {
+              "location": "stepDefs.LoginStepDef.validate_I_am_on_the_Home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1319000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on view product",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.i_click_on_view_product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "validate I am on the product page",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.validate_I_am_on_the_product_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1706000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on Add to Cart icon to add one item to cart for 1st product",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.i_click_on_Add_to_Cart_icon_to_add_one_item_to_cart_for_1st_product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1336000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click Continue Shopping",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.i_click_Continue_Shopping()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1446000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on Add to Cart icon to add one item to cart for 2nd product",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.i_click_on_Add_to_Cart_icon_to_add_one_item_to_cart_for_2nd_product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1616000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on Checkout Button",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.i_click_on_Checkout_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "validate I am on the Shipping address page",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.validate_I_am_on_the_Shipping_address_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1286000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I enter the Shipping address details",
+            "match": {
+              "location": "stepDefs.PlacingOrderPageStepDef.i_enter_the_Shipping_address_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 449000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on Add address Button",
+            "match": {
+              "location": "stepDefs.PlacingOrderPageStepDef.i_click_on_Add_address_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "validate I am on the payment details page",
+            "match": {
+              "location": "stepDefs.PlacingOrderPageStepDef.validate_I_am_on_the_payment_details_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "validate the product names",
+            "match": {
+              "location": "stepDefs.PlacingOrderPageStepDef.validate_the_product_names()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 556000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I enter the card details",
+            "match": {
+              "location": "stepDefs.PlacingOrderPageStepDef.i_enter_the_card_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1125000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click the pay button",
+            "match": {
+              "location": "stepDefs.PlacingOrderPageStepDef.i_click_the_pay_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I should get the order confirmed message \"Your Order is Confirmed!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your Order is Confirmed!!\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefs.PlacingOrderPageStepDef.i_should_get_the_order_confirmed_message(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2850000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_have_launched_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1023000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:15:12.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2398000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "This scenario is to define the empty your cart path",
+        "description": "",
+        "id": "user-end-to-end-feature-scenario;this-scenario-is-to-define-the-empty-your-cart-path",
+        "after": [
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I enter the username as \"kn@gmail.com\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefs.RegistrationStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 484000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1329000000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I click on view product",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.i_click_on_view_product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2385000000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I click on Add to Cart icon to add one item to cart for 1st product",
+            "match": {
+              "location": "stepDefs.ProductPageStepDef.i_click_on_Add_to_Cart_icon_to_add_one_item_to_cart_for_1st_product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1167000000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click on username icon",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_click_on_username_icon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click on cart icon",
+            "match": {
+              "location": "stepDefs.EmptyYourCartStepDef.i_click_on_cart_icon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1495000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "click on the delete cart icon",
+            "match": {
+              "location": "stepDefs.EmptyYourCartStepDef.click_on_the_delete_cart_icon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should get the message \"Your Cart is Empty!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your Cart is Empty!\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefs.EmptyYourCartStepDef.i_should_get_the_message(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2928000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_have_launched_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 967000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T09:15:26.868Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2698000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "This scenario is to define the admin login happy path and manage product",
+        "description": "",
+        "id": "user-end-to-end-feature-scenario;this-scenario-is-to-define-the-admin-login-happy-path-and-manage-product",
+        "after": [
+          {
+            "result": {
+              "duration": 348000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 363000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I send the admin credentials username as \"vk@gmail.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vk@gmail.com\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 72
+                }
+              ],
+              "location": "stepDefs.AdminMngProductPageStepDef.i_send_the_admin_credentials_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 451000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "validate I am on the Home page",
+            "match": {
+              "location": "stepDefs.LoginStepDef.validate_I_am_on_the_Home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1323000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I click on Manage Product",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_click_on_Manage_Product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1084000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click on Add New Category",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_click_on_Add_New_Category()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996000000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I enter the category name as \"Dermatology\" and description as \"Drugs for the treatment of skin disease\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dermatology\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Drugs for the treatment of skin disease\"",
+                  "offset": 62
+                }
+              ],
+              "location": "stepDefs.AdminMngProductPageStepDef.i_enter_the_category_name_as_and_description_as(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 509000000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I click the save Button",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_click_the_save_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1441000000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I enter all the product details",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_enter_all_the_product_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I upload a file",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_upload_a_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226000000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "select the newly created category from the category dropdown",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.select_the_newly_created_category_from_the_category_dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 918000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I click the product save Button",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.i_click_the_product_save_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Validate the newly added product in the all products list by searching by productname",
+            "match": {
+              "location": "stepDefs.AdminMngProductPageStepDef.validate_the_newly_added_product_in_the_all_products_list_by_searching_by_productname()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefs.Hooks.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin"
+          }
+        ]
+      }
+    ],
+    "name": "User End To End Feature Scenario",
+    "description": "",
+    "id": "user-end-to-end-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/UITest.feature",
+    "tags": []
+  }
+]

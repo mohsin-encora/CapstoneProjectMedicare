@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="User End To End Feature Scenario" time="143.995" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\prabh\eclipse-workspace2\CapestoneProject3\target\test-classes;C:\Users\prabh\eclipse-workspace2\CapestoneProject3\target\classes;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-java\5.6.0\cucumber-java-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-core\5.6.0\cucumber-core-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-gherkin\5.6.0\cucumber-gherkin-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.6.0\cucumber-gherkin-vintage-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\prabh\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-plugin\5.6.0\cucumber-plugin-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\docstring\5.6.0\docstring-5.6.0.jar;C:\Users\prabh\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\prabh\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-junit\5.6.0\cucumber-junit-5.6.0.jar;C:\Users\prabh\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\prabh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\prabh\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\prabh\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\prabh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\prabh\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\prabh\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\prabh\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\extentreports-cucumber5-adapter\2.16.0\extentreports-cucumber5-adapter-2.16.0.jar;C:\Users\prabh\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\prabh\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\prabh\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\prabh\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\prabh\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\prabh\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\prabh\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\prabh\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\prabh\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\prabh\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\extent-excel-report\1.3.0\extent-excel-report-1.3.0.jar;C:\Users\prabh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\prabh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\prabh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\prabh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\prabh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prabh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\prabh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\prabh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prabh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prabh\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\prabh\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\prabh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\prabh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\prabh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\prabh\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\prabh\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\prabh\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\prabh\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\prabh\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\prabh\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\prabh\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\prabh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\prabh\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\prabh\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\prabh\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\prabh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\prabh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\prabh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prabh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\prabh\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\prabh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\prabh\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\prabh\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\prabh\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\prabh\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\prabh\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\prabh\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\prabh\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\prabh\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\prabh\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\prabh\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\prabh\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\prabh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\prabh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\prabh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\prabh\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\prabh\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\prabh\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\prabh\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\prabh\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\prabh\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\prabh\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\prabh\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\prabh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\prabh\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\prabh\.m2\repository\mysql\mysql-connector-java\8.0.13\mysql-connector-java-8.0.13.jar;C:\Users\prabh\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\prabh\AppData\Local\Temp\surefire5677515798621077276\surefirebooter7655118266267963271.jar C:\Users\prabh\AppData\Local\Temp\surefire5677515798621077276 2023-04-06T14-43-20_538-jvmRun1 surefire1918337359824947134tmp surefire_02044380731997212534tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\prabh\eclipse-workspace2\CapestoneProject3\target\test-classes;C:\Users\prabh\eclipse-workspace2\CapestoneProject3\target\classes;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-java\5.6.0\cucumber-java-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-core\5.6.0\cucumber-core-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-gherkin\5.6.0\cucumber-gherkin-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.6.0\cucumber-gherkin-vintage-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\prabh\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-plugin\5.6.0\cucumber-plugin-5.6.0.jar;C:\Users\prabh\.m2\repository\io\cucumber\docstring\5.6.0\docstring-5.6.0.jar;C:\Users\prabh\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\prabh\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-junit\5.6.0\cucumber-junit-5.6.0.jar;C:\Users\prabh\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\prabh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\prabh\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\prabh\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\prabh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\prabh\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\prabh\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\prabh\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\extentreports-cucumber5-adapter\2.16.0\extentreports-cucumber5-adapter-2.16.0.jar;C:\Users\prabh\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\prabh\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\prabh\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\prabh\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\prabh\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\prabh\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\prabh\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\prabh\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\prabh\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\prabh\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\prabh\.m2\repository\tech\grasshopper\extent-excel-report\1.3.0\extent-excel-report-1.3.0.jar;C:\Users\prabh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\prabh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\prabh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\prabh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\prabh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\prabh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prabh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\prabh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\prabh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prabh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prabh\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\prabh\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\prabh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\prabh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\prabh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\prabh\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\prabh\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\prabh\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\prabh\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\prabh\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\prabh\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\prabh\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\prabh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\prabh\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\prabh\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\prabh\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\prabh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\prabh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\prabh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prabh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\prabh\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\prabh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\prabh\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\prabh\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\prabh\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\prabh\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\prabh\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\prabh\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\prabh\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\prabh\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\prabh\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\prabh\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\prabh\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\prabh\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\prabh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\prabh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\prabh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\prabh\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\prabh\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\prabh\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\prabh\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\prabh\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\prabh\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\prabh\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\prabh\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\prabh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\prabh\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\prabh\.m2\repository\mysql\mysql-connector-java\8.0.13\mysql-connector-java-8.0.13.jar;C:\Users\prabh\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\prabh\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\prabh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="basedir" value="C:\Users\prabh\eclipse-workspace2\CapestoneProject3"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\prabh\AppData\Local\Temp\surefire5677515798621077276\surefirebooter7655118266267963271.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="prabh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\prabh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\prabh\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="C:\Users\prabh\eclipse-workspace2\CapestoneProject3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\prabh\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Deskshare\My Screen Recorder Pro 5\;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files\Git\cmd;C:\Users\prabh\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\prabh\AppData\Local\Android\Sdk\tools;C:\Users\prabh\AppData\Local\Android\Sdk\tools\bin;C:\Users\prabh\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\prabh\apache-jmeter-5.5\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prabh\AppData\Local\Microsoft\WindowsApps;C:\Users\prabh\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.simplilearn.CapestoneProject3.AppTest" time="0.001">
+    <system-err><![CDATA[Apr 06, 2023 2:43:23 PM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+]]></system-err>
+  </testcase>
+  <testcase name="To Perform the GET Operation on product DB to retrieve a list of products" classname="To perform all the CRUD Operations in products API" time="15.647">
+    <system-out><![CDATA[
+@api
+Scenario: To Perform the GET Operation on product DB to retrieve a list of products # src/test/java/features/API_RestAssured.feature:4
+  Given The base URI is "http://localhost:8090/medicare"                            # stepDefs.ApiAllProductsStepDef.the_base_URI_is(java.lang.String)
+[{"id":1,"code":"PRDABC123DEFX","name":"Paracetamol","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":18.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":2,"code":"PRDDEF123GHIX","name":"Combiflame","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":22.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":3,"code":"PRDDEF123DEFX","name":"Diclofenac","brand":"Intas","description":"An pain killer medicine.","unitPrice":30.0,"quantity":20,"active":true,"purchases":0,"views":0,"file":null},{"id":4,"code":"PRDPQR123WGTX","name":"Aceclofenac","brand":"Cipla","description":"A muscle relaxant medicine.","unitPrice":42.0,"quantity":80,"active":true,"purchases":0,"views":0,"file":null},{"id":5,"code":"PRDMNO123PQRX","name":"Amoxicillin","brand":"Sun Pharma","description":"A commonly used antibiotic for bacterial infection.","unitPrice":54.0,"quantity":65,"active":true,"purchases":0,"views":0,"file":null},{"id":6,"code":"PRDABCXYZDEFX","name":"Ciprofloxacin","brand":"Sun Pharma","description":"A commonly used antibiotic for bacterial infection.","unitPrice":48.0,"quantity":45,"active":true,"purchases":0,"views":0,"file":null}]
+  When I perform the Get Operation                                                  # stepDefs.ApiAllProductsStepDef.i_perform_the_Get_Operation()
+All the Products
+[{"id":1,"code":"PRDABC123DEFX","name":"Paracetamol","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":18.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":2,"code":"PRDDEF123GHIX","name":"Combiflame","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":22.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":3,"code":"PRDDEF123DEFX","name":"Diclofenac","brand":"Intas","description":"An pain killer medicine.","unitPrice":30.0,"quantity":20,"active":true,"purchases":0,"views":0,"file":null},{"id":4,"code":"PRDPQR123WGTX","name":"Aceclofenac","brand":"Cipla","description":"A muscle relaxant medicine.","unitPrice":42.0,"quantity":80,"active":true,"purchases":0,"views":0,"file":null},{"id":5,"code":"PRDMNO123PQRX","name":"Amoxicillin","brand":"Sun Pharma","description":"A commonly used antibiotic for bacterial infection.","unitPrice":54.0,"quantity":65,"active":true,"purchases":0,"views":0,"file":null},{"id":6,"code":"PRDABCXYZDEFX","name":"Ciprofloxacin","brand":"Sun Pharma","description":"A commonly used antibiotic for bacterial infection.","unitPrice":48.0,"quantity":45,"active":true,"purchases":0,"views":0,"file":null}]
+The number of products in the list is: 6
+Api Products: [Paracetamol, Combiflame, Diclofenac, Aceclofenac, Amoxicillin, Ciprofloxacin]
+UI Products: []
+  Then I receive the list of the products                                           # stepDefs.ApiAllProductsStepDef.i_receive_the_list_of_the_products()
+  And Response code should be 200                                                   # stepDefs.ApiAllProductsStepDef.response_code_should_be(int)
+Product List from API and UI are equal
+  And I validate the products in UI and API are same                                # stepDefs.ApiAllProductsStepDef.i_validate_the_products_in_UI_and_API_are_same()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 1814
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772411.930][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772413.114][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:43:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="To Perform the get Operation for most viewed products on product DB" classname="To perform all the CRUD Operations in products API" time="3.418">
+    <system-out><![CDATA[
+@api
+Scenario: To Perform the get Operation for most viewed products on product DB     # src/test/java/features/API_RestAssured.feature:12
+  Given The base URI for most Viewed products is "http://localhost:8090/medicare" # stepDefs.ApiMostViewedProductsStepDef.the_base_URI_for_most_Viewed_products_is(java.lang.String)
+[{"id":1,"code":"PRDABC123DEFX","name":"Paracetamol","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":18.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":2,"code":"PRDDEF123GHIX","name":"Combiflame","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":22.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":3,"code":"PRDDEF123DEFX","name":"Diclofenac","brand":"Intas","description":"An pain killer medicine.","unitPrice":30.0,"quantity":20,"active":true,"purchases":0,"views":0,"file":null},{"id":4,"code":"PRDPQR123WGTX","name":"Aceclofenac","brand":"Cipla","description":"A muscle relaxant medicine.","unitPrice":42.0,"quantity":80,"active":true,"purchases":0,"views":0,"file":null},{"id":5,"code":"PRDMNO123PQRX","name":"Amoxicillin","brand":"Sun Pharma","description":"A commonly used antibiotic for bacterial infection.","unitPrice":54.0,"quantity":65,"active":true,"purchases":0,"views":0,"file":null}]
+  When I perform the get operation to get most viewed products                    # stepDefs.ApiMostViewedProductsStepDef.i_perform_the_get_operation_to_get_most_viewed_products()
+Most viewed Products
+[{"id":1,"code":"PRDABC123DEFX","name":"Paracetamol","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":18.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":2,"code":"PRDDEF123GHIX","name":"Combiflame","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":22.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":3,"code":"PRDDEF123DEFX","name":"Diclofenac","brand":"Intas","description":"An pain killer medicine.","unitPrice":30.0,"quantity":20,"active":true,"purchases":0,"views":0,"file":null},{"id":4,"code":"PRDPQR123WGTX","name":"Aceclofenac","brand":"Cipla","description":"A muscle relaxant medicine.","unitPrice":42.0,"quantity":80,"active":true,"purchases":0,"views":0,"file":null},{"id":5,"code":"PRDMNO123PQRX","name":"Amoxicillin","brand":"Sun Pharma","description":"A commonly used antibiotic for bacterial infection.","unitPrice":54.0,"quantity":65,"active":true,"purchases":0,"views":0,"file":null}]
+The number of products in the most viewed product list is: 5
+Api Most Viewed Products: [Paracetamol, Combiflame, Diclofenac, Aceclofenac, Amoxicillin]
+UI Most Viewed Products: []
+  Then I receive the list of the most viewed products                             # stepDefs.ApiMostViewedProductsStepDef.i_receive_the_list_of_the_most_viewed_products()
+  Then I should receive response code as 200                                      # stepDefs.ApiMostViewedProductsStepDef.i_should_receive_response_code_as(int)
+Most viewed Product List from API and UI are equal
+  And I should receive the same list of products in UI and API                    # stepDefs.ApiMostViewedProductsStepDef.i_should_receive_the_same_list_of_products_in_UI_and_API()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 25505
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772422.909][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772422.942][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:43:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="To retrive the products from one category" classname="To perform all the CRUD Operations in products API" time="2.455">
+    <system-out><![CDATA[
+@api
+Scenario: To retrive the products from one category                                # src/test/java/features/API_RestAssured.feature:20
+  Given The base URI for one category products is "http://localhost:8090/medicare" # stepDefs.ApiOneCategoryProductsStepDef.the_base_URI_for_one_category_products_is(java.lang.String)
+[{"id":1,"code":"PRDABC123DEFX","name":"Paracetamol","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":18.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":2,"code":"PRDDEF123GHIX","name":"Combiflame","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":22.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null}]
+  When I perform the get operation to get one category products                    # stepDefs.ApiOneCategoryProductsStepDef.i_perform_the_get_operation_to_get_one_category_products()
+First Category Products
+[{"id":1,"code":"PRDABC123DEFX","name":"Paracetamol","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":18.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null},{"id":2,"code":"PRDDEF123GHIX","name":"Combiflame","brand":"Cipla","description":"An antipyretic medicine used for fever.","unitPrice":22.0,"quantity":50,"active":true,"purchases":0,"views":0,"file":null}]
+The number of products in the most viewed product list is: 2
+Api Most Viewed Products: [Paracetamol, Combiflame]
+UI 1st category Products: []
+  Then I receive the list of the one category products                             # stepDefs.ApiOneCategoryProductsStepDef.i_receive_the_list_of_the_one_category_products()
+  Then I should get response code as 200                                           # stepDefs.ApiOneCategoryProductsStepDef.i_should_get_response_code_as(int)
+First Category Product List from API and UI are equal
+  And I should receive the same list of products from one category in UI and API   # stepDefs.ApiOneCategoryProductsStepDef.i_should_receive_the_same_list_of_products_from_one_category_in_UI_and_API()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 17554
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772425.379][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772425.392][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:43:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="To retrieve the data from category table from database" classname="To perform all the Operations in Database" time="4.622">
+    <system-out><![CDATA[
+@database
+Scenario: To retrieve the data from category table from database              # src/test/java/features/DatabaseTesting.feature:4
+  Given The connection is built with the medicare database                    # stepDefs.DatabaseTestingStepDefs.the_connection_is_built_with_the_medicare_database()
+1
+Antipyretics
+This is for reducing fever or pyrexia or pyresis
+2
+Analgesics
+This is for reducing pain known as painkillers
+3
+Antibiotics
+This is for inhibiting germ growth
+  When I pass the statement quary to retrive the data from the category table # stepDefs.DatabaseTestingStepDefs.i_pass_the_statement_quary_to_retrive_the_data_from_the_category_table()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 16135
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772427.760][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772427.865][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:43:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="To insert a new category into the database" classname="To perform all the Operations in Database" time="3.724">
+    <system-out><![CDATA[
+@database
+Scenario: To insert a new category into the database                                 # src/test/java/features/DatabaseTesting.feature:10
+  Given The connection is built with the medicare database                           # stepDefs.DatabaseTestingStepDefs.the_connection_is_built_with_the_medicare_database()
+  When I perform the insert quary to create a new category with name and description # stepDefs.DatabaseTestingStepDefs.i_perform_the_insert_quary_to_create_a_new_category_with_name_and_description()
+1
+Antipyretics
+This is for reducing fever or pyrexia or pyresis
+2
+Analgesics
+This is for reducing pain known as painkillers
+3
+Antibiotics
+This is for inhibiting germ growth
+4
+Dental
+This is to keep teeth healthy
+  Then I pass the statement quary to retrive the data from the category table        # stepDefs.DatabaseTestingStepDefs.i_pass_the_statement_quary_to_retrive_the_data_from_the_category_table()
+  Then I check the new category is displayed in GUI                                  # stepDefs.DatabaseTestingStepDefs.i_check_the_new_category_is_displayed_in_GUI()
+  And I close the driver                                                             # stepDefs.DatabaseTestingStepDefs.i_close_the_driver()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 22105
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772432.405][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772432.441][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:43:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="To add a new user to the database" classname="To perform all the Operations in Database" time="8.319">
+    <system-out><![CDATA[
+@database
+Scenario: To add a new user to the database                                    # src/test/java/features/DatabaseTesting.feature:18
+  Given The connection is built with the medicare database                     # stepDefs.DatabaseTestingStepDefs.the_connection_is_built_with_the_medicare_database()
+  When I add a new user with all the required details                          # stepDefs.DatabaseTestingStepDefs.i_add_a_new_user_with_all_the_required_details()
+The User id is not added to the Database
+1   Vikas Kashyap   ADMIN   vk@gmail.com   $2a$06$ORtBskA2g5Wg0HDgRE5ZsOQNDHUZSdpJqJ2.PGXv0mKyEvLnKP7SW   8888888888
+2   Ravindra Jadeja   SUPPLIER   rj@gmail.com   $2a$06$bzYMivkRjSxTK2LPD8W4te6jjJa795OwJR1Of5n95myFsu3hgUnm6   9999999999
+3   Ravichandra Ashwin   SUPPLIER   ra@gmail.com   $2a$06$i1dLNlXj2uY.UBIb9kUcAOxCigGHUZRKBtpRlmNtL5xtgD6bcVNOK   7777777777
+4   Kavita Nigam   USER   kn@gmail.com   $2a$06$4mvvyO0h7vnUiKV57IW3oudNEaKPpH1xVSdbie1k6Ni2jfjwwminq   7777777777
+5   Soma Mondal   USER   sm@gmail.com   13245   2567159802
+  Then the new user should be added to the database                            # stepDefs.DatabaseTestingStepDefs.the_new_user_should_be_added_to_the_database()
+  And I close the driver                                                       # stepDefs.DatabaseTestingStepDefs.i_close_the_driver()
+  When I have launched the application                                         # stepDefs.RegistrationStepDef.i_have_launched_the_application()
+  And I click on the Login Link                                                # stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()
+  When I enter the existing username as "sm@gmail.com" and password as "13245" # stepDefs.LoginStepDef.i_enter_the_existing_username_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on the Login Button                                              # stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()
+  Then validate I am on the Home page                                          # stepDefs.LoginStepDef.validate_I_am_on_the_Home_page()
+  And I close the driver                                                       # stepDefs.DatabaseTestingStepDefs.i_close_the_driver()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 34673
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772436.033][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772436.092][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:43:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="To create a new category in GUI and validating the data from the database" classname="To perform all the Operations in Database" time="12.814">
+    <system-out><![CDATA[
+@database
+Scenario: To create a new category in GUI and validating the data from the database                             # src/test/java/features/DatabaseTesting.feature:31
+  When I have launched the application                                                                          # stepDefs.RegistrationStepDef.i_have_launched_the_application()
+  And I click on the Login Link                                                                                 # stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()
+  Then I send the admin credentials username as "vk@gmail.com" and password as "admin"                          # stepDefs.AdminMngProductPageStepDef.i_send_the_admin_credentials_username_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on the Login Button                                                                               # stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()
+  Then I click on Manage Product                                                                                # stepDefs.AdminMngProductPageStepDef.i_click_on_Manage_Product()
+  Then I click on Add New Category                                                                              # stepDefs.AdminMngProductPageStepDef.i_click_on_Add_New_Category()
+  Then I enter the category name as "Dermatology1" and description as "Drugs for the treatment of skin disease" # stepDefs.AdminMngProductPageStepDef.i_enter_the_category_name_as_and_description_as(java.lang.String,java.lang.String)
+  Then I click the save Button                                                                                  # stepDefs.AdminMngProductPageStepDef.i_click_the_save_Button()
+1
+Antipyretics
+This is for reducing fever or pyrexia or pyresis
+2
+Analgesics
+This is for reducing pain known as painkillers
+3
+Antibiotics
+This is for inhibiting germ growth
+4
+Dental
+This is to keep teeth healthy
+5
+Dermatology1
+Drugs for the treatment of skin disease
+  And I validate the new category name in the Category table in database                                        # stepDefs.DatabaseTestingStepDefs.i_validate_the_new_category_name_in_the_Category_table_in_database()
+1
+Antipyretics
+This is for reducing fever or pyrexia or pyresis
+2
+Analgesics
+This is for reducing pain known as painkillers
+3
+Antibiotics
+This is for inhibiting germ growth
+4
+Dental
+This is to keep teeth healthy
+  Then I delete the new Category entry                                                                          # stepDefs.DatabaseTestingStepDefs.i_delete_the_new_Category_entry()
+  And I close the driver                                                                                        # stepDefs.DatabaseTestingStepDefs.i_close_the_driver()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 31456
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772445.510][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772445.538][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:44:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="To delete the new category and new user details from the database" classname="To perform all the Operations in Database" time="8.405">
+    <system-out><![CDATA[
+@database
+Scenario: To delete the new category and new user details from the database # src/test/java/features/DatabaseTesting.feature:46
+  Given The connection is built with the medicare database                  # stepDefs.DatabaseTestingStepDefs.the_connection_is_built_with_the_medicare_database()
+  When I perform the delete quary to delete the new category with name      # stepDefs.DatabaseTestingStepDefs.i_perform_the_delete_quary_to_delete_the_new_category_with_name()
+  And I perform the delete quary to delete the new user details with email  # stepDefs.DatabaseTestingStepDefs.i_perform_the_delete_quary_to_delete_the_new_user_details_with_email()
+  Then the category should be deleted from the database                     # stepDefs.DatabaseTestingStepDefs.the_category_should_be_deleted_from_the_database()
+The User id is deleted
+  And the user should be deleted from the database                          # stepDefs.DatabaseTestingStepDefs.the_user_should_be_deleted_from_the_database()
+  And I close the driver                                                    # stepDefs.DatabaseTestingStepDefs.i_close_the_driver()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 12800
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772458.571][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772458.586][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:44:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="This scenario is to define the registration happy path" classname="User End To End Feature Scenario" time="13.64">
+    <system-out><![CDATA[
+@user
+Scenario: This scenario is to define the registration happy path       # src/test/java/features/UITest.feature:8
+  Given I have launched the application                                # stepDefs.RegistrationStepDef.i_have_launched_the_application()
+  And I click on the Login Link                                        # stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()
+  When I click on the registration Link                                # stepDefs.RegistrationStepDef.i_click_on_the_registration_Link()
+  When I enter the firstname as "Partha" and lastname as "Karmokar"    # stepDefs.RegistrationStepDef.i_enter_the_firstname_as_and_lastname_as(java.lang.String,java.lang.String)
+  Then I enter the email id as "park@gmail.com"                        # stepDefs.RegistrationStepDef.i_enter_the_email_id_as(java.lang.String)
+  Then I enter the contact number as "2686245910"                      # stepDefs.RegistrationStepDef.i_enter_the_contact_number_as(java.lang.String)
+  Then I enter the password as "423"                                   # stepDefs.RegistrationStepDef.i_enter_the_password_as(java.lang.String)
+  And I enter the confirm password as "423"                            # stepDefs.RegistrationStepDef.i_enter_the_confirm_password_as(java.lang.String)
+  And I select the role as user                                        # stepDefs.RegistrationStepDef.i_select_the_role_as_user()
+  And I click on the Next Billing Button                               # stepDefs.RegistrationStepDef.i_click_on_the_Next_Billing_Button()
+  Then I enter the address details                                     # stepDefs.RegistrationStepDef.i_enter_the_address_details()
+  And I click on Next-confirm Button                                   # stepDefs.RegistrationStepDef.i_click_on_Next_confirm_Button()
+  And I click on confirm Button                                        # stepDefs.RegistrationStepDef.i_click_on_confirm_Button()
+  Then validate I am on the Welcome page and Login Button is displayed # stepDefs.RegistrationStepDef.validate_I_am_on_the_Welcome_page_and_Login_Button_is_displayed()
+  Then Click on registration page login Button                         # stepDefs.RegistrationStepDef.click_on_registration_page_login_Button()
+  When I enter the username as "park@gmail.com" and password as "423"  # stepDefs.RegistrationStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on the Login Button                                      # stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()
+  Then validate the username                                           # stepDefs.RegistrationStepDef.validate_the_username()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 17633
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772465.989][WARNING]: TApr 06, 2023 2:44:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+his version of ChromeDriver has not been tested with Chrome version 111.
+[1680772466.011][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+]]></system-err>
+  </testcase>
+  <testcase name="This scenario is to define the sucessful login" classname="User End To End Feature Scenario" time="7.513">
+    <system-out><![CDATA[
+@user
+Scenario: This scenario is to define the sucessful login                       # src/test/java/features/UITest.feature:27
+  Given I have launched the application                                        # stepDefs.RegistrationStepDef.i_have_launched_the_application()
+  And I click on the Login Link                                                # stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()
+  When I enter the existing username as "kn@gmail.com" and password as "12345" # stepDefs.LoginStepDef.i_enter_the_existing_username_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on the Login Button                                              # stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()
+  Then validate I am on the Home page                                          # stepDefs.LoginStepDef.validate_I_am_on_the_Home_page()
+  Then I click on username icon                                                # stepDefs.LoginStepDef.i_click_on_username_icon()
+  And I click on logout                                                        # stepDefs.LoginStepDef.i_click_on_logout()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 18399
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772479.337][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772479.401][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:44:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="This scenario is to define the failure login" classname="User End To End Feature Scenario" time="6.874">
+    <system-out><![CDATA[
+@user
+Scenario: This scenario is to define the failure login                    # src/test/java/features/UITest.feature:35
+  Given I have launched the application                                   # stepDefs.RegistrationStepDef.i_have_launched_the_application()
+  And I click on the Login Link                                           # stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()
+  When I enter the username as "abc@gmail.com" and password as "23578"    # stepDefs.RegistrationStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on the Login Button                                         # stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()
+  Then I should get the error message "Username and Password is invalid!" # stepDefs.LoginStepDef.i_should_get_the_error_message(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 47232
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772487.102][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772487.115][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:44:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="This scenario is to define the product page and placing the order path" classname="User End To End Feature Scenario" time="20.677">
+    <system-out><![CDATA[
+@user
+Scenario: This scenario is to define the product page and placing the order path # src/test/java/features/UITest.feature:41
+  Given I have launched the application                                          # stepDefs.RegistrationStepDef.i_have_launched_the_application()
+  And I click on the Login Link                                                  # stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()
+  When I enter the username as "kn@gmail.com" and password as "12345"            # stepDefs.RegistrationStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on the Login Button                                                # stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()
+  Then validate I am on the Home page                                            # stepDefs.LoginStepDef.validate_I_am_on_the_Home_page()
+  And I click on view product                                                    # stepDefs.ProductPageStepDef.i_click_on_view_product()
+  Then validate I am on the product page                                         # stepDefs.ProductPageStepDef.validate_I_am_on_the_product_page()
+  Then I click on Add to Cart icon to add one item to cart for 1st product       # stepDefs.ProductPageStepDef.i_click_on_Add_to_Cart_icon_to_add_one_item_to_cart_for_1st_product()
+  Then I click Continue Shopping                                                 # stepDefs.ProductPageStepDef.i_click_Continue_Shopping()
+  And I click on Add to Cart icon to add one item to cart for 2nd product        # stepDefs.ProductPageStepDef.i_click_on_Add_to_Cart_icon_to_add_one_item_to_cart_for_2nd_product()
+  Then I click on Checkout Button                                                # stepDefs.ProductPageStepDef.i_click_on_Checkout_Button()
+  And validate I am on the Shipping address page                                 # stepDefs.ProductPageStepDef.validate_I_am_on_the_Shipping_address_page()
+  And I enter the Shipping address details                                       # stepDefs.PlacingOrderPageStepDef.i_enter_the_Shipping_address_details()
+  And I click on Add address Button                                              # stepDefs.PlacingOrderPageStepDef.i_click_on_Add_address_Button()
+  Then validate I am on the payment details page                                 # stepDefs.PlacingOrderPageStepDef.validate_I_am_on_the_payment_details_page()
+  Then validate the product names                                                # stepDefs.PlacingOrderPageStepDef.validate_the_product_names()
+  Then I enter the card details                                                  # stepDefs.PlacingOrderPageStepDef.i_enter_the_card_details()
+  And I click the pay button                                                     # stepDefs.PlacingOrderPageStepDef.i_click_the_pay_button()
+  Then I should get the order confirmed message "Your Order is Confirmed!!"      # stepDefs.PlacingOrderPageStepDef.i_should_get_the_order_confirmed_message(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 40851
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772494.172][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772494.183][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:44:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="This scenario is to define the empty your cart path" classname="User End To End Feature Scenario" time="14.063">
+    <system-out><![CDATA[
+@user
+Scenario: This scenario is to define the empty your cart path              # src/test/java/features/UITest.feature:61
+  Given I have launched the application                                    # stepDefs.RegistrationStepDef.i_have_launched_the_application()
+  And I click on the Login Link                                            # stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()
+  When I enter the username as "kn@gmail.com" and password as "12345"      # stepDefs.RegistrationStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on the Login Button                                          # stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()
+  And I click on view product                                              # stepDefs.ProductPageStepDef.i_click_on_view_product()
+  Then I click on Add to Cart icon to add one item to cart for 1st product # stepDefs.ProductPageStepDef.i_click_on_Add_to_Cart_icon_to_add_one_item_to_cart_for_1st_product()
+  Then I click on username icon                                            # stepDefs.LoginStepDef.i_click_on_username_icon()
+  And I click on cart icon                                                 # stepDefs.EmptyYourCartStepDef.i_click_on_cart_icon()
+  Then click on the delete cart icon                                       # stepDefs.EmptyYourCartStepDef.click_on_the_delete_cart_icon()
+  Then I should get the message "Your Cart is Empty!"                      # stepDefs.EmptyYourCartStepDef.i_should_get_the_message(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 23633
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772515.163][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772515.179][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:45:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1680772526.730][SEVERE]: Unable to receive message from renderer
+]]></system-err>
+  </testcase>
+  <testcase name="This scenario is to define the admin login happy path and manage product" classname="User End To End Feature Scenario" time="14.764">
+    <system-out><![CDATA[
+@admin
+Scenario: This scenario is to define the admin login happy path and manage product                             # src/test/java/features/UITest.feature:72
+  Given I have launched the application                                                                        # stepDefs.RegistrationStepDef.i_have_launched_the_application()
+  And I click on the Login Link                                                                                # stepDefs.RegistrationStepDef.i_click_on_the_Login_Link()
+  When I send the admin credentials username as "vk@gmail.com" and password as "admin"                         # stepDefs.AdminMngProductPageStepDef.i_send_the_admin_credentials_username_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on the Login Button                                                                              # stepDefs.RegistrationStepDef.i_click_on_the_Login_Button()
+  Then validate I am on the Home page                                                                          # stepDefs.LoginStepDef.validate_I_am_on_the_Home_page()
+  Then I click on Manage Product                                                                               # stepDefs.AdminMngProductPageStepDef.i_click_on_Manage_Product()
+  Then I click on Add New Category                                                                             # stepDefs.AdminMngProductPageStepDef.i_click_on_Add_New_Category()
+  Then I enter the category name as "Dermatology" and description as "Drugs for the treatment of skin disease" # stepDefs.AdminMngProductPageStepDef.i_enter_the_category_name_as_and_description_as(java.lang.String,java.lang.String)
+  Then I click the save Button                                                                                 # stepDefs.AdminMngProductPageStepDef.i_click_the_save_Button()
+  Then I enter all the product details                                                                         # stepDefs.AdminMngProductPageStepDef.i_enter_all_the_product_details()
+  And I upload a file                                                                                          # stepDefs.AdminMngProductPageStepDef.i_upload_a_file()
+  Then select the newly created category from the category dropdown                                            # stepDefs.AdminMngProductPageStepDef.select_the_newly_created_category_from_the_category_dropdown()
+  And I click the product save Button                                                                          # stepDefs.AdminMngProductPageStepDef.i_click_the_product_save_Button()
+  Then Validate the newly added product in the all products list by searching by productname                   # stepDefs.AdminMngProductPageStepDef.validate_the_newly_added_product_in_the_all_products_list_by_searching_by_productname()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 48604
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1680772529.544][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[1680772529.553][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Apr 06, 2023 2:45:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
