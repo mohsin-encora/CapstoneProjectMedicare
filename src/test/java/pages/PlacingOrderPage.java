@@ -9,12 +9,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import constants.GlobalConstants;
+
 
 public class PlacingOrderPage {
 
 	WebDriver driver;
-	GlobalConstants globalConstantsants;
+	
 	
 	
 	@FindBy(xpath = "//input[@id='addressLineOne']")
@@ -55,12 +55,6 @@ public class PlacingOrderPage {
 	
 	@FindBy(xpath = "//h3[text()='Paracetamol']//following::h4[2]")
 	WebElement TabletTwoQnt;
-	
-	/*@FindBy(xpath = "//tr[2]//preceding::tr[1]/td[3]")
-	WebElement tabonequantity;
-	
-	@FindBy(xpath = "//tr[2]/td[3]")
-	WebElement tabtwoquantity;*/
 	
 	@FindBy(xpath = "//input[@id='cardNumber']")
 	WebElement CardNumber;
@@ -125,20 +119,7 @@ public class PlacingOrderPage {
         String ExpProductName2="Combiflame";
         Assert.assertEquals(ExpProductName2, ActProductName2);
     }
-	
-	/*public void ValidProductsQnt()
-    {
-		globalConstantsants = new GlobalConstants();
 		
-    	String ActQnt1 = TabletOneQnt.getText();
-        String ExpQnt1= "3";
-        Assert.assertEquals(ActQnt1, ExpQnt1);
-        
-        String ActQnt2 = TabletTwoQnt.getText();
-        String ExpQnt2="3";
-        Assert.assertEquals(ActQnt2, ExpQnt2 );
-    }*/
-	
 	public void SetCardDetails(String cardNo, String month, String year, String CVCode)
 	{
 		CardNumber.sendKeys(cardNo);

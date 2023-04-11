@@ -29,10 +29,7 @@ public class ApiAllProductsStepDef {
 	Response response;
 	RequestSpecification request;
 	
-  
-	//List<String> APIproduct = new ArrayList<String>();
-	//List<String> UIProducts = new ArrayList<String>();
-	
+  	
 	@Given("The base URI is {string}")
 	public void the_base_URI_is(String URI) {
 	    

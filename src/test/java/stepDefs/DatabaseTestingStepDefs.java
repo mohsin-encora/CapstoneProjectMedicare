@@ -37,9 +37,6 @@ public class DatabaseTestingStepDefs {
 		DatabaseConPage.DBDataCategory();
 	}
 	
-	//@When("I perform the insert quary to create a new category with name {string} and description {string}")
-	//public void i_performe_the_insert_quary_to_create_a_new_category_with_name_and_description(String Catname, String Desc) throws SQLException, ClassNotFoundException {
-	
 	@When("I perform the insert quary to create a new category with name and description")
 	public void i_perform_the_insert_quary_to_create_a_new_category_with_name_and_description() throws ClassNotFoundException, SQLException {
 	    

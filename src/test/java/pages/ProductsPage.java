@@ -14,12 +14,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import constants.GlobalConstants;
 
 public class ProductsPage {
 
 	WebDriver driver;
-	GlobalConstants globalConstantsants;
+
 	
 	@FindBy(xpath = "//span[@class='caret']")
 	WebElement userNameIconDropDown;
@@ -46,9 +45,6 @@ public class ProductsPage {
 	
 	@FindBy(xpath = "//*[@id='count_21']")
 	WebElement AddQunt2;
-	
-	//@FindBy(xpath = "//*[@id='cart']/tfoot/tr[2]/td[1]/a")
-	//WebElement ContinueShopping;
 	
 	@FindBy(xpath = "//a[@class='btn btn-warning']")
 	WebElement ContinueShopping;

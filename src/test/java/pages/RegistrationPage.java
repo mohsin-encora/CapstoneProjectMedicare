@@ -254,10 +254,5 @@ public class RegistrationPage {
 	    	Assert.assertTrue(UserVisible);
 	    }
 	    
-	    /*public static String getRandomemail() {
-			String randommail = RandomStringUtils.randomAlphanumeric(2);
-			
-			return (randommail +"42@gmail.com");
-			
-		}*/
+	   
 }

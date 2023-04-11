@@ -187,14 +187,7 @@ public class AdminMngProductPage {
 	    
 	    public void ValidateProductNameList() {
 	    	
-	    	/*List<WebElement> AllProducts = driver.findElements(By.xpath("//select[@id='categoryId']/option"));
-	    	
-	    	for(WebElement product:AllProducts) {
-	    		
-	    		System.out.println("The product list is "+ product);
-	    		
-	     	}*/
-	    	
+	    	    	
 	    	ProductSearch.sendKeys("Amorolfine");
 	    	
 	    	String Actual = driver.findElement(By.xpath("//td[3]")).getText();
